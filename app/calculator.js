@@ -14,15 +14,15 @@ function subtract(a, b) {
 function multiplyBySujal(a, b) {
     return a * b;
 }
+
 function multiplyByMaahi(a, b){
     return a * b;
 }
 
-function multiply(a, b){
+function multiplication(a, b){
     return a * b;
 }
-
-function multiplication(a, b){
+function multiply(a, b) {
     return a * b;
 }
 
@@ -39,6 +39,7 @@ module.exports = {
 
     multiplyBySujal,
 
+    multiplication,
     multiplyByMaahi,    
     multiply,
     multiplication,
