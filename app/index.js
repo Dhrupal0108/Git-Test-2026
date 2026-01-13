@@ -20,12 +20,7 @@ const result2 = calculator.subtract(110, 43);
 console.log(`Expected: 6, Got: ${result2}`);
 console.log(result2 === 6 ? '✓ PASS' : '✗ FAIL\n');
 
-// Test Multiplication
 
-console.log('Testing multiplication(5, 6):');
-const result3 = calculator.multiplication(5, 6);
-console.log(`Expected: 30, Got: ${result3}`);
-console.log(result3 === 30 ? '✓ PASS' : '✗ FAIL\n');
 // Test Mulitplication
 console.log('Testing multiplication(5, 3):');
 const result3 = calculator.multiply(5, 3);
@@ -37,13 +32,6 @@ console.log('Testing multiplication (5, 6):');
 const result4 = calculator.multiplication(5, 6);
 console.log(`Expected: 30, Got: ${result4}`);
 console.log(result4 === 30 ? '✓ PASS' : '✗ FAIL\n');
-
-
-// Test multiply
-console.log('Testing multiply(4, 8):');
-const result4 = calculator.multiply(4, 8);
-console.log(`Expected: 32, Got: ${result4}`);
-console.log(result4 === 32 ? '✓ PASS' : '✗ FAIL\n');
 
 
 // Test MultiplyBySourabh
