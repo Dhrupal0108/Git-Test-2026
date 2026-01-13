@@ -26,6 +26,17 @@ console.log('Testing multiplication(5, 6):');
 const result3 = calculator.multiplication(5, 6);
 console.log(`Expected: 30, Got: ${result3}`);
 console.log(result3 === 30 ? '✓ PASS' : '✗ FAIL\n');
+// Test Mulitplication
+console.log('Testing multiplication(5, 3):');
+const result3 = calculator.multiply(5, 3);
+console.log(`Expected: 15, Got: ${result3}`);
+console.log(result3 === 15 ? '✓ PASS' : '✗ FAIL\n');
+
+// Test multiplication
+console.log('Testing multiplication (5, 6):');
+const result4 = calculator.multiplication(5, 6);
+console.log(`Expected: 30, Got: ${result4}`);
+console.log(result4 === 30 ? '✓ PASS' : '✗ FAIL\n');
 
 
 // Test multiply
