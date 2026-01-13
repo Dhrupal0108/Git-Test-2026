@@ -8,6 +8,11 @@ function add(a, b) {
     return a - b;
 }
 
+function additional(a, b) {
+    // BUG: This is incorrect - should return a + b
+    return a * b;
+}
+
 function subtract(a, b) {
     return a - b;
 }
