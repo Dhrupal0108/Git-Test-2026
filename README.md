@@ -102,28 +102,6 @@ Review the Git history and answer the following:
 
 **Deliverable:** Document the commit hash of the bug fix commit.
 
----
-
-### Task 7: Explanation Questions
-
-Answer the following questions in a text file named `answers.txt` in the root of the repository:
-
-1. **What is the difference between `git pull` and `git fetch`?**
-   - When would you use each command?
-
-2. **What is the difference between `git revert` and `git reset`?**
-   - When should you use `git revert` instead of `git reset`?
-
-3. **When should you create a new branch?**
-   - Provide at least three scenarios.
-
-4. **Why do commit messages matter?**
-   - What makes a good commit message?
-
-5. **What happens when you run `git merge`?**
-   - Explain the process in your own words.
-
-**Deliverable:** A file named `answers.txt` with your answers to all questions.
 
 ---
 
@@ -136,7 +114,6 @@ Before submitting your work, ensure:
 - [ ] `main` branch contains the bug fix and multiplication feature
 - [ ] No force pushes were used on `main`
 - [ ] Commit messages follow best practices
-- [ ] `answers.txt` file is created and committed
 - [ ] Your repository history is clean and logical
 
 ## Submission
