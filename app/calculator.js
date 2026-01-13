@@ -23,16 +23,16 @@ function multiplication(a, b){
     return a * b;
 }
 
+function multiply(a,b){
+    return a*b;
+}
+
 function multiplyBySourabh(a,b){
     return a* b;
 }
 
 
 
-
-function multiply(a,b){
-    return a*b;
-}
 
 module.exports = {
     add,
