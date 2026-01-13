@@ -18,5 +18,11 @@ const result2 = calculator.subtract(10, 4);
 console.log(`Expected: 6, Got: ${result2}`);
 console.log(result2 === 6 ? '✓ PASS' : '✗ FAIL\n');
 
+// Test Mulitplication
+console.log('Testing multiplication(5, 3):');
+const result3 = calculator.multiply(5, 3);
+console.log(`Expected: 15, Got: ${result3}`);
+console.log(result3 === 15 ? '✓ PASS' : '✗ FAIL\n');
+
 console.log('=== End of Tests ===');
 
