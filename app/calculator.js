@@ -8,21 +8,28 @@ function add(a, b) {
     return a + b;
 }
 
-function subtract(a, b) {
-    return a - b;
+function multiplication(a, b){
+    return a * b;
 }
  
 function multiply(a,b){
 return a*b;
 }
 
-function multiplication(a,b){
-return a*b;
+function multiplyBySourabh(a,b){
+    return a* b;
 }
+
+
+
 
 module.exports = {
     add,
     subtract,
-    multiplication
+    multiplyByMaahi,    
+    multiply,
+    multiplication,
+    multiplyBySourabh
+    
 };
 
