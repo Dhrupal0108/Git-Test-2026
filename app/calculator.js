@@ -4,7 +4,7 @@
  */
 
 function add(a, b) {
-    // bug fixed
+    // BUG FIXED
     return a + b;
 }
 
