@@ -8,13 +8,15 @@ console.log('=== Calculator Test ===\n');
 
 // Test addition (this will fail due to bug)
 console.log('Testing add(5, 3):');
-const result1 = calculator.add(5, 3);
+const result1 = calculator.add(15, 31);
 console.log(`Expected: 8, Got: ${result1}`);
 console.log(result1 === 8 ? '✓ PASS' : '✗ FAIL\n');
 
+calculator.additional(11,35);
+
 // Test subtraction
 console.log('Testing subtract(10, 4):');
-const result2 = calculator.subtract(10, 4);
+const result2 = calculator.subtract(110, 43);
 console.log(`Expected: 6, Got: ${result2}`);
 console.log(result2 === 6 ? '✓ PASS' : '✗ FAIL\n');
 
