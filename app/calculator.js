@@ -16,10 +16,6 @@ function multiplyByMaahi(a, b) {
   return a * b;
 }
 
-function multiplybymanan(a, b) {
-  return a * b;
-}
-
 function multiply(a, b) {
   return a * b;
 }
@@ -29,6 +25,9 @@ function multiplication(a, b) {
 }
 
 function multiplyBySourabh(a, b) {
+  return a * b;
+}
+function multiplybymanan(a, b) {
   return a * b;
 }
 
