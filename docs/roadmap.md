@@ -10,6 +10,7 @@
 - [ ] Scientific calculator features
 - [ ] History tracking
 - [ ] Export calculations to CSV
+- [] Add more available features
 
 ## Q3 2026
 - [ ] Web interface
