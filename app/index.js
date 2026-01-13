@@ -35,5 +35,13 @@ console.log(`Expected: 32, Got: ${result4}`);
 console.log(result4 === 32 ? '✓ PASS' : '✗ FAIL\n');
 
 
+// Test MultiplyBySourabh
+console.log('Testing multiplyBySourabh(10, 10):');
+const newResult = calculator.multiplyBySourabh(10, 10);
+console.log(`Expected: 100, Got: ${newResult}`);
+console.log(newResult === 100 ? '✓ PASS' : '✗ FAIL\n');
+
+
+
 console.log('=== End of Tests ===');
 

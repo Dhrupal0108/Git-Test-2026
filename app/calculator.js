@@ -25,10 +25,15 @@ function multiplication(a, b){
     return a * b;
 }
 
+function multiplyBySourabh(a,b){
+    return a * b;
+}
+
 module.exports = {
     add,
     subtract,
     multiply,
-    multiplication
+    multiplication,
+    multiplyBySourabh
 };
 
