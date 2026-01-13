@@ -13,6 +13,7 @@ function subtract(a, b) {
 }
 
 function multiplication(a,b){
+    //new multiplication feature is add
 return a*b;
 }
 
