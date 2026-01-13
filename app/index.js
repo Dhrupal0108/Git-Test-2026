@@ -19,10 +19,11 @@ console.log(`Expected: 6, Got: ${result2}`);
 console.log(result2 === 6 ? '✓ PASS' : '✗ FAIL\n');
 
 // Test Multiplication
-console.log('Testing Multiply(10, 4):');
+console.log('Testing subtract(10, 4):');
 const result3 = calculator.multiply(10, 4);
 console.log(`Expected: 40, Got: ${result3}`);
-console.log(result3 === 40 ? '✓ PASS' : '✗ FAIL\n');
+console.log(result2 === 40 ? '✓ PASS' : '✗ FAIL\n');
+
 
 console.log('=== End of Tests ===');
 
