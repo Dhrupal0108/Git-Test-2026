@@ -18,6 +18,11 @@ const result2 = calculator.subtract(10, 4);
 console.log(`Expected: 6, Got: ${result2}`);
 console.log(result2 === 6 ? '✓ PASS' : '✗ FAIL\n');
 
+// Test multiplication
+console.log('Testing multiply(15, 5):');
+const result10 = calculator.multiplyByMaahi(15, 5);
+console.log(`Expected: 75, Got: ${result10}`);
+console.log(result10 === 75 ? '✓ PASS' : '✗ FAIL\n');
 
 // Test Mulitplication
 console.log('Testing multiplication(5, 3):');
