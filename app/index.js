@@ -18,11 +18,18 @@ const result2 = calculator.subtract(10, 4);
 console.log(`Expected: 6, Got: ${result2}`);
 console.log(result2 === 6 ? "✓ PASS" : "✗ FAIL\n");
 
+// Test Multiplication
+console.log('Testing MultiplyByPrakruti(10, 4):');
+const resultByPrakruti = calculator.multiplyByPrakruti(10, 4);
+console.log(`Expected: 40, Got: ${resultByPrakruti}`);
+console.log(resultByPrakruti === 40 ? '✓ PASS' : '✗ FAIL\n');
+
 //Test multiply
 console.log('Testing multiply(5,4):');
 const multiplyans = calculator.multiplyByNaman(5,4);
 console.log(`Expected: 20, Got: ${multiplyans}`);
 console.log(multiplyans === 20 ? '✓ PASS' : '✗ FAIL\n');
+
 // Test multiplication
 console.log('Testing multiply(10, 4):');
 const resultSujal = calculator.multiplyBySujal(10, 4);

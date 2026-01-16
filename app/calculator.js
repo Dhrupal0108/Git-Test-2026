@@ -22,7 +22,8 @@ function multiplyBySujal(a, b){
 function multiplication(a, b) {
   return a * b;
 }
-function multiply(a, b) {
+
+function multiplyByPrakruti(a, b) {
     return a * b;
 }
 
@@ -37,9 +38,15 @@ function multiplybymanan(a, b) {
   return a * b;
 }
 
+function multiply(a, b) {
+    return a * b;
+}
+
+
 module.exports = {
-    add,
+    add, 
     subtract,
+    multiplyByPrakruti,
     multiplyBySujal,    
     multiply,
     multiplyByMaahi,    
