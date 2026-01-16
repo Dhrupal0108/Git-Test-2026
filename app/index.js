@@ -43,6 +43,13 @@ const newResult = calculator.multiplyBySourabh(10, 10);
 console.log(`Expected: 100, Got: ${newResult}`);
 console.log(newResult === 100 ? '✓ PASS' : '✗ FAIL\n');
 
+// Test MultiplyBySourabh
+console.log('Testing Vishalmultiply(10, 10):');
+const Result2 = calculator.Vishalmultiply(10, 10);
+console.log(`Expected: 100, Got: ${Result2}`);
+console.log(Result2 === 100 ? '✓ PASS' : '✗ FAIL\n');
+
+
 
 console.log('=== End of Tests ===');
 
