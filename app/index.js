@@ -6,6 +6,12 @@ const calculator = require("./calculator");
 
 console.log("=== Calculator Test ===\n");
 
+// Test Vishalmultiply
+console.log('Testing Vishalmultiply(10, 10):');
+const Result2 = calculator.Vishalmultiply(10, 10);
+console.log(`Expected: 100, Got: ${Result2}`);
+console.log(Result2 === 100 ? '✓ PASS' : '✗ FAIL\n');
+
 // Test addition (this will fail due to bug)
 console.log("Testing add(5, 3):");
 const result1 = calculator.add(5, 3);
