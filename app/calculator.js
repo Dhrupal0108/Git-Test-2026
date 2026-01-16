@@ -7,7 +7,9 @@ function add(a, b) {
   // BUG: This is incorrect - should return a + b
   return a + b;
 }
-
+function multiplyByHimanshu(a,b){
+  return a*b;
+}
 function subtract(a, b) {
   return a - b;
 }
@@ -53,5 +55,7 @@ module.exports = {
     multiplyByNaman,
     multiplication,
     multiplyBySourabh,
-    multiplybymanan
+    multiplybymanan,
+    multiplyByHimanshu
+    
 };
