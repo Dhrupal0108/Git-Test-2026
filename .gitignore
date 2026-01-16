@@ -4,4 +4,11 @@ node_modules/
 .env
 dist/
 build/
+.vs/
+app/.vs/
 
+# Visual Studio
+.vs/
+app/.vs/
+bin/
+obj/
