@@ -18,6 +18,14 @@ function subtract(a, b) {
   return a - b;
 }
 
+function multiply(a, b) {
+    return a * b;
+}
+
+function multiplication(a, b) {
+    return a * b;
+}
+
 function multiplication(a,b){
 return a*b;
 }
@@ -44,9 +52,6 @@ function multiplybymanan(a, b) {
   return a * b;
 }
 
-function multiply(a, b) {
-    return a * b;
-}
 
 
 module.exports = {
@@ -56,6 +61,7 @@ module.exports = {
     multiplyByPrakruti,
     multiplyBySujal,    
     multiply,
+    multiplication
     multiplyByMaahi,    
     multiplyByNaman,
     multiplication,
