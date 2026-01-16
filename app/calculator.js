@@ -4,15 +4,18 @@
  */
 
 function add(a, b) {
-    // BUG: This is incorrect - should return a + b
-    return a + b;
+  // BUG: This is incorrect - should return a + b
+  return a + b;
 }
 function Vishalmultiply(x,y){
     return x*y;
 }
 
+function multiplyByHimanshu(a, b) {
+  return a*b;
+}
 function subtract(a, b) {
-    return a - b;
+  return a - b;
 }
 
 function multiplication(a,b){
@@ -22,25 +25,43 @@ function multiplyByMaahi(a, b){
     return a * b;
 }
 
-function multiply(a, b){
+function multiplyBySujal(a, b){
     return a * b;
 }
 
-function multiplication(a, b){
+function multiplication(a, b) {
+  return a * b;
+}
+
+function multiplyByPrakruti(a, b) {
     return a * b;
 }
 
-function multiplyBySourabh(a,b){
- return a* b;
+function multiplyByNaman(a,b) {
+    return a * b;
+}
+function multiplyBySourabh(a, b) {
+  return a * b;
+}
+function multiplybymanan(a, b) {
+  return a * b;
 }
 
-module.exports = { 
-    add,
-    Vishalmultiply,
+function multiply(a, b) {
+    return a * b;
+}
+
+
+module.exports = {
+    add, 
     subtract,
-    multiplyByMaahi,    
+    multiplyByPrakruti,
+    multiplyBySujal,    
     multiply,
+    multiplyByMaahi,    
+    multiplyByNaman,
     multiplication,
-    multiplyBySourabh,   
+    multiplyBySourabh, 
+    multiplybymanan,
+    multiplyByHimanshu
 };
-
