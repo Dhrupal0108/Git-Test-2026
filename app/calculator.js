@@ -39,7 +39,7 @@ module.exports = {
 
     multiplyBySujal,
 
-   
+    multiplication,
     multiplyByMaahi,    
     multiply,
     multiplication,
