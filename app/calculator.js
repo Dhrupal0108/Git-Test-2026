@@ -30,8 +30,6 @@ function multiplyByNaman(a,b) {
     return a * b;
 }
 
-function multiplyBySourabh(a,b){
-    return a* b;
 function multiplyBySourabh(a, b) {
   return a * b;
 }
@@ -42,7 +40,6 @@ function multiplybymanan(a, b) {
 module.exports = {
     add,
     subtract,
-    multiplyByMaahi,
     multiplyBySujal,    
     multiply,
     multiplyByMaahi,    
