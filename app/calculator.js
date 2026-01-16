@@ -8,6 +8,11 @@ function add(a, b) {
     return a + b;
 }
 
+function Vishalmultiply(x,y){
+    return x*y;
+}
+
+
 function subtract(a, b) {
     return a - b;
 }
@@ -31,18 +36,13 @@ function multiplyBySourabh(a,b){
  return a* b;
 }
 
-function Vishalmultiply(x,y){
-    return x*y;
-}
-
-
 module.exports = {
     add,
     subtract,
+     Vishalmultiply ,
     multiplyByMaahi,    
     multiply,
     multiplication,
-    multiplyBySourabh,
-    Vishalmultiply    
+    multiplyBySourabh,   
 };
 
