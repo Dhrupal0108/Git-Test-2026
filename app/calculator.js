@@ -35,9 +35,7 @@ function multiplyBySourabh(a,b){
 }
 
 module.exports = {
-    Vishalmultiply,
-
-    
+    Vishalmultiply,  
     add,
     subtract,
     multiplyByMaahi,    
