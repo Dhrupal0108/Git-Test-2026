@@ -13,6 +13,12 @@ function Vishalmultiply(x,y){
 }
 
 
+
+
+
+
+
+
 function subtract(a, b) {
     return a - b;
 }
@@ -39,7 +45,16 @@ function multiplyBySourabh(a,b){
 module.exports = {
     add,
     subtract,
-     Vishalmultiply ,
+    Vishalmultiply,
+
+
+
+
+
+
+
+
+    
     multiplyByMaahi,    
     multiply,
     multiplication,
