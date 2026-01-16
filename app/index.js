@@ -65,6 +65,13 @@ const newResult = calculator.multiplyBySourabh(10, 10);
 console.log(`Expected: 100, Got: ${newResult}`);
 console.log(newResult === 100 ? "✓ PASS" : "✗ FAIL\n");
 
+// Test subtraction
+console.log('Testing multiply(6, 2):');
+const result3 = calculator.multiply(6, 2);
+console.log(`Expected: 12, Got: ${result2}`);
+console.log(result3 === 12 ? '✓ PASS' : '✗ FAIL\n');
+
+console.log('=== End of Tests ===');
 console.log("Testing multiplication(10, 4):");
 const multiplyResult = calculator.multiplybymanan(10, 4);
 console.log(`Expected: 6, Got: ${multiplyResult}`);

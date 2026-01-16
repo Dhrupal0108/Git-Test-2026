@@ -44,6 +44,14 @@ function multiplybymanan(a, b) {
   return a * b;
 }
 
+function multiply(a, b){
+    return a*b;
+}
+
+module.exports = {
+    add,
+    subtract,
+    multiply
 function multiply(a, b) {
     return a * b;
 }
