@@ -11,15 +11,18 @@ function add(a, b) {
 function subtract(a, b) {
     return a - b;
 }
+function multiplyBySujal(a, b) {
+    return a * b;
+}
+
 function multiplyByMaahi(a, b){
     return a * b;
 }
 
-function multiply(a, b){
+function multiplication(a, b){
     return a * b;
 }
-
-function multiplication(a, b){
+function multiply(a, b) {
     return a * b;
 }
 
@@ -33,10 +36,13 @@ function multiplyBySourabh(a,b){
 module.exports = {
     add,
     subtract,
+
+    multiplyBySujal,
+
+   
     multiplyByMaahi,    
     multiply,
     multiplication,
     multiplyBySourabh
-    
 };
 

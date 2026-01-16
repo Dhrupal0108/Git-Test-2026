@@ -19,6 +19,11 @@ console.log(`Expected: 6, Got: ${result2}`);
 console.log(result2 === 6 ? '✓ PASS' : '✗ FAIL\n');
 
 // Test multiplication
+console.log('Testing multiply(10, 4):');
+const resultSujal = calculator.multiplyBySujal(10, 4);
+console.log(`Expected: 40, Got: ${resultSujal}`);
+console.log(resultSujal === 40 ? '✓ PASS' : '✗ FAIL\n');
+
 console.log('Testing multiply(15, 5):');
 const result10 = calculator.multiplyByMaahi(15, 5);
 console.log(`Expected: 75, Got: ${result10}`);
