@@ -45,8 +45,8 @@ function multiply(a, b) {
 
 module.exports = {
     add, 
-    subtract,
     multiplyByPrakruti,
+    subtract,
     multiplyBySujal,    
     multiply,
     multiplyByMaahi,    
