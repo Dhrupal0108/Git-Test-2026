@@ -7,17 +7,9 @@ function add(a, b) {
     // BUG: This is incorrect - should return a + b
     return a + b;
 }
-
 function Vishalmultiply(x,y){
     return x*y;
 }
-
-
-
-
-
-
-
 
 function subtract(a, b) {
     return a - b;
@@ -43,18 +35,9 @@ function multiplyBySourabh(a,b){
 }
 
 module.exports = {
+    Vishalmultiply,
     add,
     subtract,
-    Vishalmultiply,
-
-
-
-
-
-
-
-
-    
     multiplyByMaahi,    
     multiply,
     multiplication,
