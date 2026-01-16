@@ -63,5 +63,10 @@ console.log("Testing multiplication(10, 4):");
 const multiplyResult = calculator.multiplybymanan(10, 4);
 console.log(`Expected: 6, Got: ${multiplyResult}`);
 console.log(multiplyResult === 40 ? "✓ PASS" : "✗ FAIL\n");
+// Test multiplyByHimanshu
+console.log("Testing multiplyByHimanshu(10, 10):");
+const ans = calculator.multiplyByHimanshu(10, 10);
+console.log(`Expected: 100, Got: ${ans}`);
+console.log(ans === 100 ? "✓ PASS" : "✗ FAIL\n");
 
 console.log("=== End of Tests ===");
